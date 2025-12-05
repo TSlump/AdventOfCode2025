@@ -2,10 +2,11 @@
 using AdventOfCode2025.Days.Day2;
 using AdventOfCode2025.Days.Day3;
 using AdventOfCode2025.Days.Day4;
+using AdventOfCode2025.Days.Day5;
 
 Console.WriteLine("Advent of Code-2025 \n");
 
-var day = 4;
+var day = 5;
 
 switch (day)
 {
@@ -27,5 +28,10 @@ switch (day)
     case 4:
         Console.WriteLine("Day 4");
         Day4.Run();
+        break;
+    
+    case 5:
+        Console.WriteLine("Day 5");
+        Day5.Run();
         break;
 }
